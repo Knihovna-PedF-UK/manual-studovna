@@ -6,15 +6,25 @@
 \usepackage{microtype}
 \usepackage{luavlna}
 \usepackage[margin=2cm]{geometry}
-\usepackage{responsive}
+\usepackage[characters=80]{responsive}
 \setcounter{secnumdepth}{0} 
 \usepackage{enumitem}
 \setlist{nosep} %
+\usepackage{tocloft}
+
+\setlength{\cftbeforesecskip}{0pt}
 
 \begin{document}
-\section{Manuál pro studovnu}
+\title{Manuál pro studovnu}
+\author{}
+\maketitle
 
-\subsection{Co dělat při otevření}
+\renewcommand{\baselinestretch}{0.75}\normalsize
+\tableofcontents
+\renewcommand{\baselinestretch}{1.0}\normalsize
+
+
+\section{Co dělat při otevření}
 
 \begin{enumerate}
 
@@ -32,7 +42,7 @@
 \end{enumerate}
 
 
-\subsection{Jak zavřít}
+\section{Jak zavřít}
 \begin{enumerate}
 
 \item Začněte dělat hluk, aby si čtenáři všimli, že se něco děje
@@ -51,14 +61,14 @@
 \end{enumerate}
 
 
-\subsection{Na co dávat pozor}
+\section{Na co dávat pozor}
 
 \begin{itemize}
 \item  Nenechte uschnout kytky
 \item  Dolévejte vodu do fontánky, když je hladina níž než žárovka
 \end{itemize}
 
-\subsection{Další úkoly}
+\section{Další úkoly}
 
 \begin{itemize}
 \item Zakládání knih po načtení prezenčního užití v Almě
@@ -67,7 +77,7 @@
 \item  Zalévání kytek
 \end{itemize}
 
-\subsection{Interakce se studenty}
+\section{Interakce se studenty}
 
 \begin{itemize}
 \item Každého příchozího zaznamenat do docházkového formuláře křížkem (nejdůležitějšíi!!!)
@@ -79,7 +89,7 @@ zvedněte se a významně se na ně podívejte. Pokud ani to nepomůže, požád
 \end{itemize}
   
 
-\subsection{Jak najít literaturu}
+\section{Jak najít literaturu}
 
 
 \begin{itemize}
@@ -89,13 +99,13 @@ zvedněte se a významně se na ně podívejte. Pokud ani to nepomůže, požád
   \item Zkuste se podívat na regál s literaturou k založení
 \end{itemize}
 
-\subsection{Časopisy pro katedry}
+\section{Časopisy pro katedry}
 \begin{itemize}
   \item V zeleném kaslíku na polici u pultu
   \item  V deskách jsou formuláře pro jednotlivé katedry, při předání se podepisují
 \end{itemize}
 
-\subsection{Zakládání literatury}
+\section{Zakládání literatury}
 
 \begin{itemize}
 \item  Uživatelé by měli dávat prostudovanou literaturu na polici před pultem
@@ -112,7 +122,7 @@ zvedněte se a významně se na ně podívejte. Pokud ani to nepomůže, požád
 \item Text před lomítkem je rovný 2. signatuře, za lomítkem je umístění na regále. Řadí se podle abecedy, ale v zásadě jen podle prvního písmene .
 \end{itemize}
 
-\subsection{Tisk a kopírování}
+\section{Tisk a kopírování}
 \begin{itemize}
 \item Tiskárna se zapíná tlačítkem \enquote{Power} na kontrolním panelu.
 \item Můžou tisknout ze všech počítačů, normálně černobíle.
@@ -122,7 +132,7 @@ zvedněte se a významně se na ně podívejte. Pokud ani to nepomůže, požád
 \item Kroužková vazba je komplikovaná, chce to trošku cviku. Pokud jste to nikdy nedělali, radši to nezkoušejte naostro.
 \end{itemize}
   
-\subsection{Nastavení kopírování}
+\section{Nastavení kopírování}
 \begin{itemize}
 \item Při kopírování můžete nastavit spoustu možností na dotykovém displeji.
 \item Na hlavní obrazovce kopírování se ujistěte, že kopie je černobílá, pokud má být a nastavte volby oboustranného tisku. 
@@ -133,7 +143,7 @@ zvedněte se a významně se na ně podívejte. Pokud ani to nepomůže, požád
 
 
 
-\subsubsection{Problémy při tisku}
+\subsection{Problémy při tisku}
 \begin{itemize}
   \item Pokud svítí nebo bliká oranžová kontrolka na kontrolním panelu a nic se netiskne, nastala chyba.
   \item Na displeji se píše, jaký je problém a zobrazí se popis, jak to opravit.
@@ -141,7 +151,7 @@ zvedněte se a významně se na ně podívejte. Pokud ani to nepomůže, požád
   \item Došel toner -- volejte mě, Zuzku V., nebo někoho ze SIT.
   \item Zaseknutý papír -- podle instrukcí na displeji se podívejte na místa, která to píše -- typicky zásobníky papíru, tonery, atd. Je to hezky popsané a vykreslené, takže se toho nemusíte bát, zvládnete to.
   \end{itemize}
-\subsection{Projektor}
+\section{Projektor}
 
 \begin{itemize}
 \item  Zapíná se ovladačem, který je ve druhém šuplíku vlevo na pultu.
@@ -150,7 +160,7 @@ zvedněte se a významně se na ně podívejte. Pokud ani to nepomůže, požád
 \item  Může být třeba správně nastavit notebook -- ve vlastnostech zobrazení vyberte duplikování plochy.
 \end{itemize}
 
-\subsection{Studenti s handicapem}
+\section{Studenti s handicapem}
 
 \begin{itemize}
 \item Nejen slabozrací, ale i dyslektici atd.
@@ -160,7 +170,7 @@ zvedněte se a významně se na ně podívejte. Pokud ani to nepomůže, požád
 počet vytištěných stránek (pokud tisknou)
 \end{itemize}
 
-\subsection{Kde co je}
+\section{Kde co je}
 
 \begin{itemize}
   \item Formuláře
